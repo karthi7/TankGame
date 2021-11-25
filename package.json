@@ -1,0 +1,14 @@
+{
+  "name": "letsbegin",
+  "version": "1.0.0",
+  "description": "Seed for game dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "Tank"
+  ],
+  "author": "Karthik",
+  "license": "MIT"
+}

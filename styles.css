@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+    width:100%;
+    height: 100%;
+    background: #F5F5F5;
+    display: flex;
+}
+
+.particleBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.playGround {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background: #303030;
+    position: relative;
+}
+
+.playGround div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 2px #545454;
+    z-index: 10;
+}
+.bg {
+    position: absolute;
+    background: url('../../assets/images/background/bg_ss_a.jpg');
+    background-size: contain;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    filter: blur(0.5px);
+}
+
+canvas {
+    position: absolute;
+}
+
+.canvasPanel {
+    
+}
+
+
+
+
+
+
+
+
+
+
